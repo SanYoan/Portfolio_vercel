@@ -4,16 +4,14 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
 
-
 const App = () => {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/Portfolio" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/NotFound" element={<NotFound />}></Route>
-        <Route path="*" element={<NotFound />}
-        />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>
