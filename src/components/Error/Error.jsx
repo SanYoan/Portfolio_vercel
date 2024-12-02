@@ -24,14 +24,12 @@ const Error = () => {
         <span className={styles.break_text}>vous demandez n'existe pas.</span>
       </p>
       <a
-        href="/Portfolio"
-
+        href="/"
         className={styles.link_error}
         onClick={() => window.scrollTo(0, 0)}
       >
         Retourner sur la page d'accueil
       </a>
-
     </section>
   );
 };
