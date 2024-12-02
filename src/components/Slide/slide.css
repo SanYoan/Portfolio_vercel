@@ -1,0 +1,76 @@
+/* Structure */
+.logo-slider {
+    overflow: hidden;
+    /* Cache les logos hors de la vue */
+    width: 100%;
+    /* Largeur du conteneur */
+    background-color: rgba(181, 54, 255, 0.749);
+    /* Fond semi-transparent */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.logo-track {
+    display: flex;
+    /* Affiche les logos en ligne */
+    /* Largeur double pour l'effet de boucle */
+    animation: scroll 80s linear infinite;
+    /* Animation continue */
+}
+
+
+
+
+.logo-track img {
+    width: 100px;
+    /* Taille des logos */
+    height: 40px;
+    margin: 0 40px;
+    /* Espacement entre les logos */
+}
+
+/* Animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+        /* Départ */
+    }
+
+    100% {
+        transform: translateX(-100%);
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo-track img {
+        width: 60px;
+        /* Taille des logos */
+        height: 40px;
+        margin: 0 20px;
+        /* Espacement entre les logos */
+    }
+
+    .logo-slider {
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .logo-track img {
+        width: 60px;
+        /* Taille des logos */
+        height: 30px;
+        margin: 0 20px;
+        /* Espacement entre les logos */
+    }
+
+    .logo-slider {
+        height: 40px;
+    }
+
+}

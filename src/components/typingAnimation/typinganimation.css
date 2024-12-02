@@ -1,0 +1,57 @@
+.typing-animation {
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #ffffff !important;
+    /* Forcer la couleur blanche */
+    white-space: pre-wrap;
+    display: inline-block;
+    /* S'assure que le curseur suit */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+        /* Visibilité à 100% */
+    }
+
+    50% {
+        opacity: 0;
+        /* Invisibilité à 0% */
+    }
+
+    100% {
+        opacity: 1;
+        /* Retour à la visibilité à 100% */
+    }
+}
+
+.cursor {
+    font-weight: normal;
+    /* Couleur blanche pour le curseur */
+    display: inline-block;
+    width: 0px;
+    /* Largeur ajustée pour le curseur */
+    margin-left: 0px;
+    /* Espace entre le texte et le curseur */
+    animation: blink 1s infinite;
+    /* Clignotement du curseur */
+}
+
+.small-text {
+    font-size: 36px;
+    /* Taille de texte réduite, ajustez selon vos besoins */
+    line-height: 1.5;
+    font-weight: normal;
+    /* Ne pas mettre en gras */
+    color: #ffffff !important;
+    /* Forcer la couleur blanche */
+}
+
+
+@media (max-width: 1024px) {
+    .typing-animation {
+        font-size: 34px;
+        /* Taille de texte réduite pour les écrans plus petits */
+    }
+}

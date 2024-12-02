@@ -1,0 +1,243 @@
+[
+    {
+        "id": "c67ab8a7",
+        "title": "Booki",
+        "cover": "/assets/projets/test.webp",
+        "altCover": "Projet Booki",
+        "altOne":"Booki Card",
+        "altTwo": "Booki Footer",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/Booki_cards.webp",
+                "picturetwo": "/assets/projets/projets_desktop/booki_footer.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/Booki_cards.webp",
+                "picturetwo": "/assets/projets/projets_tablette/booki_footer.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/Booki_cards.webp",
+                "picturetwo": "/assets/projets/projets_mobile/booki_footer.webp"
+            }
+        },
+        "urlsite": "https://sanyoan.github.io/Booki/",
+        "github": "https://github.com/SanYoan/Booki",
+        "description": "Booki est une maquette visuelle d'une plateforme dédiée à la recherche d'hébergements pour des vacances de rêve. Ce projet a été réalisé dans le but de démontrer une interface moderne et attrayante, centrée sur l'expérience utilisateur, sans fonctionnalités dynamiques.",
+        "skills": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": "b9123946",
+        "title": "Portfolio Sophie Bluel",
+        "cover": "/assets/projets/vttnvoekgj9bvhmavmgf.webp",
+        "altCover": "Sophie Bluel",
+        "altOne":"Modal",
+        "altTwo": "Login page",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/sophiebluel_modal.webp",
+                "picturetwo": "/assets/projets/projets_desktop/sophiebluel_login.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/sophiebluel_modal.webp",
+                "picturetwo": "/assets/projets/projets_tablette/sophiebluel_login.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/sophiebluel_modal.webp",
+                "picturetwo": "/assets/projets/projets_mobile/sophiebluel_login.webp"
+            }
+        },
+        "urlsite": "https://sanyoan.github.io/Front-end-Sophie-bluel/",
+        "github": "https://github.com/SanYoan/Front-end-Sophie-bluel",
+        "description": "Le Portfolio Sophie Bluel est un projet centré sur la création d'une interface moderne et responsive pour le site d'une designeuse d'espace, conçu pour offrir une expérience utilisateur fluide et esthétique. Réalisé dans le cadre d'un développement front-end, ce projet utilise des technologies classiques du web telles que HTML, CSS et JavaScript, tout en intégrant une maquette élaborée avec Figma.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"        
+        ]
+    },
+    {
+        "id": "46d188c5",
+        "title": "Nina Carducci - Photographe",
+        "cover": "/assets/projets/slfdcmwq8bvtu12a1ze3.webp",
+        "altCover": "Site de la photographe Nina",
+        "altOne":"Carrousel",
+        "altTwo": "Filters",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/nina_carrousel.webp",
+                "picturetwo": "/assets/projets/projets_desktop/nina_filter.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/nina_carrousel.webp",
+                "picturetwo": "/assets/projets/projets_tablette/nina_filter.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/nina_carrousel.webp",
+                "picturetwo": "/assets/projets/projets_mobile/nina_filter.webp"
+            }
+        },
+        "urlsite": "https://sanyoan.github.io/Nina-Carducci-p4/",
+        "github": "https://github.com/SanYoan/Nina-Carducci-p4",
+        "description": "En tant que développeur front-end, j'ai amélioré le site de la photographe Nina Carducci. J'ai optimisé la vitesse du site avec Lighthouse, assuré son accessibilité à tous les utilisateurs, intégré des pratiques de SEO technique pour améliorer sa visibilité, et mis à jour le contenu avec de nouvelles photographies.",
+        "skills": [
+            "Lighthouse",
+            "Wave",
+            "TechnicalSEO",
+            "OpenGraph"    
+        ]
+    },
+    {
+        "id": "7af00cd6",
+        "title": "Kasa",
+        "cover": "/assets/projets/Capture.webp",
+        "altCover": "Projet Kasa",
+        "altOne":"Section about",
+        "altTwo": "Landing kasa",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/kasa_about.webp",
+                "picturetwo": "/assets/projets/projets_desktop/kasa_full.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/kasa_about.webp",
+                "picturetwo": "/assets/projets/projets_tablette/kasa_full.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/kasa_about.webp",
+                "picturetwo": "/assets/projets/projets_mobile/kasa_full.webp"
+            }
+        },
+        "urlsite": "https://sanyoan.github.io/Kasa/",
+        "github": "https://github.com/SanYoan/Kasa",
+        "description": "J'ai développé une application web avec React.js permettant d'afficher des appartements sous forme de cartes. Chaque appartement présente des détails spécifiques comme des descriptions, des images et des caractéristiques uniques. L'interface utilisateur a été conçue en utilisant Sass et Scss pour garantir une mise en page réactive et moderne, optimisée pour une expérience utilisateur fluide et intuitive.",
+        "skills": [
+            "JavaScript",
+            "React.js",
+            "Sass",
+            "Scss"    
+        ]
+    },
+    {
+        "id": "0979876d",
+        "title": "Mon Vieux Grimoire",
+        "cover": "/assets/projets/vieuxgrimoire-book.webp",
+        "altCover": "Site Mon vieux grimoire",
+        "altOne":"Best books",
+        "altTwo": "Add book",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/vieuxgrimoire_best.webp",
+                "picturetwo": "/assets/projets/projets_desktop/addbook.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/vieuxgrimoire_best.webp",
+                "picturetwo": "/assets/projets/projets_tablette/addbook.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/vieuxgrimoire_best.webp",
+                "picturetwo": "/assets/projets/projets_mobile/addbook.webp"
+            }
+        },
+        "github": "https://github.com/SanYoan/Vieux-grimoire",
+        "description": "J'ai développé une API Rest avec Node.js, Express, et MongoDB pour la gestion de livres. L'API permet d'effectuer des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) sur les livres, ainsi que la gestion des utilisateurs avec un système d'authentification pour sécuriser l'accès aux fonctionnalités de l'application.",
+        "skills": [
+            "Node.JS",
+            "Express",
+            "MongoDB",
+            "API Rest"    
+        ]
+    },
+    {
+        "id": "0457867c",
+        "title": "Portfolio",
+        "cover": "/assets/projets/projets_desktop/portfolio_cover.webp",
+        "altCover": "Mon portfolio",
+        "altOne":"Skill portfolio",
+        "altTwo": "Modal Portfolio",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/portfolio_skills.webp",
+                "picturetwo": "/assets/projets/projets_desktop/modal_Portfolio.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/portfolio_skills.webp",
+                "picturetwo": "/assets/projets/projets_tablette/modal_Portfolio.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/portfolio_skills.webp",
+                "picturetwo": "/assets/projets/projets_mobile/modal_Portfolio.webp"
+            }
+        },
+        "urlsite": "https://sanyoan.github.io/Portfolio/",
+        "github": "https://github.com/SanYoan/Portfolio",
+        "description": "Le développement de mon portfolio a été un projet passionnant, visant à créer une plateforme professionnelle pour présenter mes compétences, mes projets et mon parcours de développeur.",
+        "skills": [
+            "React.js",
+            "Scss",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "0498467c",
+        "title": "Argent Bank",
+        "cover": "/assets/projets/projets_desktop/home.webp",
+        "altCover": "Argent bank Accueil",
+        "altOne":"signin argent bank",
+        "altTwo": "Edit form argent bank",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/signin.webp",
+                "picturetwo": "/assets/projets/projets_desktop/form_edit.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/signin.webp",
+                "picturetwo": "/assets/projets/projets_tablette/form_edit.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/signin.webp",
+                "picturetwo": "/assets/projets/projets_mobile/form_edit.webp"
+            }
+        },
+        "github": "https://github.com/SanYoan/Argent_bank",
+        "description": "Le développement du site argent Bank a été un projet intéressant pour l'apprentissage des méthodes CRUD avec la mise en place de Redux avec redux Toolkit & d'axios",
+        "skills": [
+            "React.js",
+            "Redux",
+            "Redux toolkit",
+            "Axios",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "049aef67c",
+        "title": "Grimoire mySQL",
+        "cover": "/assets/projets/projets_desktop/vieuxgrimoireSQL.webp",
+        "altCover": "Grimoire SQL",
+        "altOne":"database connect",
+        "altTwo": "get one book",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/code.webp",
+                "picturetwo": "/assets/projets/projets_desktop/vieuxgrimoire_best.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/code.webp",
+                "picturetwo": "/assets/projets/projets_tablette/vieuxgrimoire_best.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/code.webp",
+                "picturetwo": "/assets/projets/projets_mobile/vieuxgrimoire_best.webp"
+            }
+        },
+        "github": "https://github.com/SanYoan/GrimoireMySQL",
+        "description": "J'ai repris un ancien projet mon vieux grimoire et je suis passé d'une base de donnée MongoDB a une base de donnée MySQL avec l'ORM sequelize",
+        "skills": [
+            "MySQL",
+            "PHPmyAdmin",
+            "Sequelize"
+        ]
+    }
+]
