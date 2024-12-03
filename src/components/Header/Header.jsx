@@ -2,24 +2,22 @@ import { useState } from "react";
 import logo from "../../assets/logo.png";
 import { Link } from "react-scroll"; // Importer Link depuis react-scroll
 
-
-
-
 const Header = () => {
-
-
   const [isExpanded, setIsExpanded] = useState(true); // État initial à true
 
   const handleMenuClick = () => {
     // Sélectionner l'élément avec la classe .navbar-toggle
-    const navButton = document.querySelector(".navbar-toggle", ".navbar-collapse");
+    const navButton = document.querySelector(
+      ".navbar-toggle",
+      ".navbar-collapse"
+    );
     const navMenu = document.querySelector(".navbar-collapse");
     const icoMenu = document.querySelector(".fa, .fa-times");
-    icoMenu.className = "fa fa-bars"
-    navButton.setAttribute('aria-expanded', `${isExpanded}`); // Mettre aria-expanded à false
-    navButton.className = "navbar-toggle collapsed"
-    navMenu.setAttribute('aria-expanded', `${isExpanded}`); // Mettre aria-expanded à false
-    navMenu.className = "navbar-collapse menu-ui-design collapse"
+    icoMenu.className = "fa fa-bars";
+    navButton.setAttribute("aria-expanded", `${isExpanded}`); // Mettre aria-expanded à false
+    navButton.className = "navbar-toggle collapsed";
+    navMenu.setAttribute("aria-expanded", `${isExpanded}`); // Mettre aria-expanded à false
+    navMenu.className = "navbar-collapse menu-ui-design collapse";
     setIsExpanded(false); // Mettre à jour l'état isExpanded
   };
 
@@ -38,7 +36,7 @@ const Header = () => {
               >
                 <i className="fa fa-bars"></i>
               </button>
-              <a className="navbar-brand" href="/Portfolio">
+              <a className="navbar-brand" href="/">
                 <img src={logo} className="logo_img" alt="logo" />
               </a>
             </div>
@@ -130,4 +128,3 @@ const Header = () => {
 };
 
 export default Header;
-

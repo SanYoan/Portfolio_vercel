@@ -1,7 +1,5 @@
 import logo from "../../assets/logo.png";
 
-
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -13,19 +11,23 @@ const Footer = () => {
     <footer id="footer-copyright" className="footer-copyright">
       <blockquote>
         <p>
-          <a className="citation" href="http://evene.lefigaro.fr/citation/apprendre-deposer-banque-esprit-18790.php">“Apprendre, c'est déposer de l'or dans la banque de son esprit.”</a>
+          <a
+            className="citation"
+            href="http://evene.lefigaro.fr/citation/apprendre-deposer-banque-esprit-18790.php"
+          >
+            “Apprendre, c'est déposer de l'or dans la banque de son esprit.”
+          </a>
         </p>
-        <cite>
-          De Shad Helmstetter / Le Pouvoir de motivation intérieure
-        </cite>
+        <cite>De Shad Helmstetter / Le Pouvoir de motivation intérieure</cite>
       </blockquote>
       <div className="container">
         <div className="hm-footer-copyright text-center">
-
-          <a href="/Portfolio" className="navbar-brand">
+          <a href="/" className="navbar-brand">
             <img src={logo} className="logo_imgFooter" alt="logo" />
           </a>
-          <p className="textFooter">&copy; {currentYear} Yoan Sannier, Tous droits réservés.</p>
+          <p className="textFooter">
+            &copy; {currentYear} Yoan Sannier, Tous droits réservés.
+          </p>
         </div>
       </div>
 
